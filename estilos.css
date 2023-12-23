@@ -107,6 +107,7 @@ ul li {
   grid-template-rows: repeat(3, 200px);
   padding: 15px;
   grid-gap: 15px;
+  padding-bottom: 75px;
 }
 .collage .item {
   border: 2px solid #000;
@@ -144,9 +145,7 @@ ul li {
   color: #fff;
 }
 
-.container {
-  background-color: transparent;
-}
+
 
 footer {
   text-align: center;
@@ -169,7 +168,7 @@ footer a {
 }
 
 #foofq {
-  margin-top: 200px;
+  margin-top: 350px;
 }
 
 #accordionPanelsStayOpenExample {
