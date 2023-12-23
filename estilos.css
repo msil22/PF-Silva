@@ -92,4 +92,86 @@ ul li {
   color: rgb(18, 54, 197);
   display: flex;
   text-align: left;
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.collage {
+  background-color: #989898;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(3, 200px);
+  padding: 15px;
+  grid-gap: 15px;
+}
+.collage .item {
+  border: 2px solid #000;
+  background-size: cover;
+  background-position: center;
+}
+.collage .item1 {
+  background-image: url(./Multimedia/camara1.jpeg);
+}
+.collage .item2 {
+  background-image: url(./Multimedia/camara1\(vertical\).jpeg);
+  grid-row: span 2;
+}
+.collage .item3 {
+  background-image: url(./Multimedia/camara3.jpeg);
+}
+.collage .item4 {
+  background-image: url(./Multimedia/camara4.jpeg);
+}
+.collage .item5 {
+  background-image: url(./Multimedia/camara5.jpeg);
+}
+.collage .item6 {
+  background-image: url(./Multimedia/camara6.jpeg);
+}
+.collage .item7 {
+  background-image: url(./Multimedia/office-820390_1280.jpg);
+}
+.collage .item8 {
+  background-image: url(./Multimedia/office-932926_1280.jpg);
+}
+
+.formulario {
+  background-color: #989898;
+  color: #fff;
+}
+
+.container {
+  background-color: transparent;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 15px;
+}
+
+#foofq {
+  margin-top: 200px;
+}
+
+#accordionPanelsStayOpenExample {
+  margin-top: 25px;
 }/*# sourceMappingURL=estilos.css.map */
