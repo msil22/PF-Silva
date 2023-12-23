@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway&display=swap");
+
+$color1: #fff;
+$color2: #232323;
+$color3: #000;
+$color4: #c21b1b;
+$color5: #989898;
+$color6: rgb(18, 54, 197);
+$color7: green;
+$color8: red;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand, .logo-text {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+.navbar-brand {
+    max-height: 100px;
+}
+
+span {
+    color: $color1;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    li{
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-bottom: 10px; 
+    }
+}
+
+.navbar-toggler-icon {
+    background-color: $color1; 
+}
+
+.green{
+    color: $color7;
+}
+
+.red{
+    color: $color8;
+}
+
+.custom-bg-color {
+    background-color: $color2;
+}
+
+.zoom-on-hover:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.ticket::before {
+    content: '\2713'; 
+    margin-right: 8px; 
+}
+
+.cross::before {
+    content: '\2717'; 
+    margin-right: 8px;
+}
+
+.estudio{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Multimedia/camara1.jpeg);
+    .camara{
+        max-width: 40%;
+        padding: 20px;
+        text-align: left;
+        color: $color1;
+    }
+    h2{
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: $color6;
+        display: flex;
+        text-align: left;
+    }
+}
