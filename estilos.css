@@ -99,6 +99,11 @@ ul li {
   margin-bottom: 30px;
 }
 
+#foocontacto{
+  margin-top: 100px;
+}
+
+
 .collage {
   background-color: #989898;
   height: auto;
@@ -145,7 +150,9 @@ ul li {
   color: #fff;
 }
 
-
+.container {
+  background-color: transparent;
+}
 
 footer {
   text-align: center;
@@ -168,7 +175,7 @@ footer a {
 }
 
 #foofq {
-  margin-top: 350px;
+  margin-top: 300px;
 }
 
 #accordionPanelsStayOpenExample {
